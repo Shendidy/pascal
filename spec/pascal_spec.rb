@@ -25,5 +25,13 @@ describe Pascal do
     it 'b- 1' do
       expect(subject.pascal(1)).to eq([1, 1])
     end
+
+    it 'c- 7' do
+      expect(subject.pascal(7)).to eq([1, 7, 21, 35, 35, 21, 7, 1])
+    end
+
+    it 'd- 14' do
+      expect(subject.pascal(14)).to eq([1, 14, 91, 364, 1001, 2002, 3003, 3432, 3003, 2002, 1001, 364, 91, 14, 1])
+    end
   end
 end
