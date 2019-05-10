@@ -19,4 +19,4 @@ Hint: given "n" is the line number, "k" is the kth number in that line, you can 
 https://github.com/Shendidy/pascal.git
 
 ## Youtube link:
-xxx
+https://youtu.be/ykj35K-pDDI
