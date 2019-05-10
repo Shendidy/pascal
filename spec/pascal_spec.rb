@@ -18,12 +18,12 @@ describe Pascal do
   end
 
   context '3- pascal can return the correct pascal array for line' do
-    it '0' do
+    it 'a- 0' do
       expect(subject.pascal(0)).to eq([1])
     end
 
-    it '1' do
-      expect(subject.pascal(0)).to eq([1, 1])
+    it 'b- 1' do
+      expect(subject.pascal(1)).to eq([1, 1])
     end
   end
 end
