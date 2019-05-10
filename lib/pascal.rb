@@ -5,6 +5,8 @@ class Pascal
     (0..num).map{|k| fac(num)/(fac(k)*fac(num-k))}
   end
 
+  private
+
   def fac(n)
     n == 0 ? 1 : (1..n).inject(:*)
   end
